@@ -15,10 +15,12 @@ import MyCarousel from './components/my-carousel/my-carousel.component.jsx'
 import TitleMessage from './components/title-message/title-massage.componet.jsx'
 import About from './pages/about/about.component.jsx'
 import Education from './pages/education/education.component.jsx'
+import Projects from './components/progects/projects.component.jsx'
 import ContactForm from './pages/contact-form/contact-form.component.jsx'
 import FooterPanel from './pages/footer/footer.component.jsx'
 import Particles from 'react-particles-js'
 import { particlesOptions } from "./particlesOptions";
+
 const  App = () =>{
   return (
   <div className="App" style={{ position: "relative" }}>
@@ -63,6 +65,16 @@ const  App = () =>{
               <Fade duration={500}>
                 <hr/>
               <Education/>
+              </Fade>
+            </Container>
+            
+          </div>
+
+          <div>
+            <Container className="container-box rounded">
+              <Fade duration={500}>
+                <hr/>
+              <Projects/>
               </Fade>
             </Container>
             

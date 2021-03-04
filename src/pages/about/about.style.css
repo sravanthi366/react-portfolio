@@ -8,10 +8,5 @@
 }
 
 .my-details {
-  background-color: white;
-}
-.font-details {
-  font-size: 3em;
-  font-weight: 500;
-  color: #231d5af8;
+  background-color: rgba(255, 255, 255, 0.747);
 }

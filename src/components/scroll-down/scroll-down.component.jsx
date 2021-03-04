@@ -1,5 +1,4 @@
-import React from 'react'
-
+import React from "react";
 import styled from "styled-components";
 
 const MyScroll = styled.div`
@@ -12,7 +11,7 @@ const MyScroll = styled.div`
   background-color: transparent;
   font-weight: bold;
   text-shadow: 1px 1px #45a29e;
-  color: #eee;
+  color: #fff;
   .turn {
     cursor: pointer;
     transform: rotate(90deg);
@@ -28,5 +27,6 @@ const ScrollDown = () => {
     </MyScroll>
   );
 };
+
 export default ScrollDown;
 
