@@ -49,7 +49,7 @@ const ContactForm = () => {
               </a>
             </div>
             <div className="m-2">
-              <a href="https://www.facebook.com/akjha132" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.facebook.com/sravanthib02" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-primary" title="Say hello on FB">
                   <i className="fab fa-facebook-square"></i> FaceBook
                 </Button>
