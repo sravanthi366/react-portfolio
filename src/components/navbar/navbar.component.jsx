@@ -11,7 +11,7 @@ const myNavbar = () => {
 fixed="top"
 variant="dark"
 expand="md"
-className="animate-navbar nav-theme justify-content-between">
+className="animate-navbar nav-theme justify-content-between scroll-down">
   <Navbar.Brand href="#home">
   <img className="logo" src={Logo} alt="My Portfolio Logo"/>
   </Navbar.Brand>
